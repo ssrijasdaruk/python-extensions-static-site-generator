@@ -19,6 +19,7 @@ def stats():
     final_time = start_time - time.time()
     if total_written != 0:
         average = final_time / total_written
-    else 0
-    report = "Converted: {} · Time: {:.2f} sec · Ave: {:.4f} sec/file"
+    else
+        average = 0
+    report = "Converted: {} · Time: {:.2f} sec · Avg: {:.4f} sec/file"
     print(report.format(total_written, final_time, average))
